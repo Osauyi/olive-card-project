@@ -1,0 +1,107 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+
+section {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(228, 12%, 48%);
+
+
+}
+
+h1 {
+  font-family: 'Fraunces', serif;
+  color: hsl(158, 36%, 37%);
+  font-size: 30px;
+}
+
+
+
+.container {
+  width: 560px;
+  display: flex;
+  border-radius: 15px;
+  margin: 0%;
+}
+
+#text {
+  text-align: left;
+  background-color: white;
+  border-radius: 0px 10px 10px 0px;
+  height: 380px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5%;
+  margin: 0px;
+}
+
+
+.olive {
+  width: 290px;
+  border-radius: 10px 0px 0px 10px;
+  height: 100%;
+}
+
+.highmun {
+  margin-right: 20px;
+}
+
+.lessmun {
+  text-decoration: line-through;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: hsl(158, 36%, 37%);
+  padding: 13px 0px;
+  font-size: 13px;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.pef {
+  letter-spacing: 5px;
+  margin: 0px;
+  font-size: x-small;
+}
+
+
+#seperate h1,
+#seperate p {
+  display: inline;
+  vertical-align: center;
+}
+
+.title {
+  color: hsl(212, 21%, 14%);
+  overflow-wrap: break-word;
+  font-weight: bolder;
+  width: 188px;
+  height: 134px;
+  font-size: 34px;
+  margin: 0px;
+}
+
+.little-note {
+  font-size: 14px;
+  line-height: 1.5rem;
+  overflow-wrap: break-word;
+  margin: 0px;
+  width: 242px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
